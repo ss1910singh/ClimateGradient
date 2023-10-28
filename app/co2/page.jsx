@@ -1,5 +1,6 @@
 import React from 'react'
 import Graph from './co2graph'
+
 export default function page() {
   return (
     <>
@@ -7,7 +8,7 @@ export default function page() {
     <div
         className="bg-fixed bg-cover bg-center w-full h-screen relative overflow-hidden"
         style={{
-          backgroundImage: 'url("https://reneweconomy.com.au/wp-content/uploads/2020/10/greenhouse-gas-emissions-optimised-1280x720.jpg")',
+          backgroundImage: 'url("/CO2.jpg")',
         }}
       >
 
@@ -39,20 +40,20 @@ export default function page() {
     </div>
     <div class= "md:block hidden">
     </div>
-    <div className='text-white bg-black'>
-    <strong class="text-yellow-300">Source:  NASA, ISRO, Mauna Loa, NOAA : </strong>
+        <div className='text-white bg-black'>
+        <strong class="text-yellow-300">Source:  NASA, ISRO, Mauna Loa, NOAA : </strong>
 
+        <br>
+        </br>
+        <br>
+        </br>
+
+          <div class="para - font-sans text-yellow-100 subpixel- antialiased text- justify pl-5 pr-5 mx-4">Carbon dioxide (CO2) is an important heat-trapping gas, also known as a greenhouse gas, that comes from the extraction and burning of fossil fuels (such as coal, oil, and natural gas), from wildfires, and natural processes like volcanic eruptions. The first graph shows atmospheric CO2 levels measured by NOAA at Mauna Loa Observatory, Hawaii, since 1958. The second graph shows CO2 levels during Earth&rsquo;s last three glacial cycles, as captured by air bubbles trapped in ice sheets and glaciers.
+    Since the onset of industrial times in the 18th century, human activities have raised atmospheric CO2 by 50% &ndash; meaning the amount of CO2 is now 150% of its value in 1750. This human-induced rise is greater than the natural increase observed at the end of the last ice age 20,000 years ago.
+    The animated map shows how the historical changes in global carbon dioxide over time. Note the colors change as the amount of CO2 rises from 365 parts per million (ppm) in 2002 to over 420 ppm currently. It&rsquo;s important to understand that &ldquo;parts per million&rdquo; refers to the number of carbon dioxide molecules per million molecules of dry air. These measurements are from the mid-troposphere, the layer of Earth&rsquo;s atmosphere that is 8 to 12 kilometers (about 5 to 7 miles) above the ground. This data provides insights into the significant rise in atmospheric CO2 concentrations, highlighting the impact of human activities on Earth&rsquo;s climate.</div>
     <br>
     </br>
-    <br>
-    </br>
-
-      <div class="para - font-sans text-yellow-100 subpixel- antialiased text- justify pl-5 pr-5 mx-4">Carbon dioxide (CO2) is an important heat-trapping gas, also known as a greenhouse gas, that comes from the extraction and burning of fossil fuels (such as coal, oil, and natural gas), from wildfires, and natural processes like volcanic eruptions. The first graph shows atmospheric CO2 levels measured by NOAA at Mauna Loa Observatory, Hawaii, since 1958. The second graph shows CO2 levels during Earth’s last three glacial cycles, as captured by air bubbles trapped in ice sheets and glaciers.
-Since the onset of industrial times in the 18th century, human activities have raised atmospheric CO2 by 50% – meaning the amount of CO2 is now 150% of its value in 1750. This human-induced rise is greater than the natural increase observed at the end of the last ice age 20,000 years ago.
-The animated map shows how the historical changes in global carbon dioxide over time. Note the colors change as the amount of CO2 rises from 365 parts per million (ppm) in 2002 to over 420 ppm currently. It's important to understand that “parts per million” refers to the number of carbon dioxide molecules per million molecules of dry air. These measurements are from the mid-troposphere, the layer of Earth's atmosphere that is 8 to 12 kilometers (about 5 to 7 miles) above the ground. This data provides insights into the significant rise in atmospheric CO2 concentrations, highlighting the impact of human activities on Earth's climate.</div>
-<br>
-</br>
-    </div>
+        </div>
     <div className='text-white' >
             <h3 class="text-lg font-bold text-yellow-300">Get data:-</h3>
             <br>

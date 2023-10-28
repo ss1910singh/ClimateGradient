@@ -7,7 +7,7 @@ export default function page() {
       <div
         className="bg-fixed bg-cover bg-center w-full h-screen relative overflow-hidden"
         style={{
-          backgroundImage: 'url("https://rwdi.com/assets/site/oil-sands6.jpg")',
+          backgroundImage: 'url("/M1.jpg")',
         }}
       >
 

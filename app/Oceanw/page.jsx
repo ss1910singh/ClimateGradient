@@ -6,7 +6,7 @@ export default function page() {
       <div
         className="bg-fixed bg-cover bg-center w-full h-screen relative overflow-hidden"
         style={{
-          backgroundImage: 'url("https://www.techexplorist.com/wp-content/uploads/2020/08/Arctic-sea-ice.jpg")',
+          backgroundImage: 'url("/OW.jpg")',
         }}
       >
 
@@ -16,7 +16,7 @@ export default function page() {
         </div>
         <div className="absolute bottom-14 left-1/2 transform -translate-x-1/2 text-white text-xl text-center w-full text-purple-300 font-sans:[Helevicta]">
           <p className="  p-4 rounded-md ">
-          Averaged over Earth's surface, the 1993–2022 heat-gain rates were 0.38 (±0.05) to 0.44 (±0.10) Watts per square meter for depths from 0–700 meters (down to 0.4 miles), depending on which research group's analysis you consult. Meanwhile, heat gain rates were 0.17 (±0.03) to 0.32 (±0.04) Watts per square meter for depths of 700–2,000 meters (0.4–1.2 miles). For depths between 2000–6000 meters (1.2–3.7 miles), the estimated increase was 0.07 (±0.03) Watts per square meter for the period from September
+          Averaged over Earth&rsquo;s surface, the 1993&ndash;2022 heat-gain rates were 0.38 (&plusmn;0.05) to 0.44 (&plusmn;0.10) Watts per square meter for depths from 0&ndash;700 meters (down to 0.4 miles), depending on which research group&rsquo;s analysis you consult. Meanwhile, heat gain rates were 0.17 (&plusmn;0.03) to 0.32 (&plusmn;0.04) Watts per square meter for depths of 700&ndash;2,000 meters (0.4&ndash;1.2 miles). For depths between 2000&ndash;6000 meters (1.2&ndash;3.7 miles), the estimated increase was 0.07 (&plusmn;0.03) Watts per square meter for the period from September
             
           </p>
         </div>
