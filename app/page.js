@@ -114,61 +114,61 @@ export default function Home() {
       <div className='w-full h-50 justify-center content-center justify-items-center grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 px-10  gap-y-10 mb-40'>
        
 
-<div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+<div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
 <p className='absolute m-auto top-5 bottom-0 left-0 right-0 hover:opacity-0 text-white font-bold tracking-wider text-center text-2xl mb-4'>Evidence</p>
 <p className='absolute m-auto top-20 bottom-0 left-0 right-0 hover:opacity-0  text-white font-bold tracking-wider text-center text-2xl mb-4 duration-100'>How Do We Know Climate Change Is Real?</p>
 
-      <div class="w-full">
-        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://images.unsplash.com/photo-1615092296061-e2ccfeb2f3d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xpbWF0ZSUyMGNoYW5nZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="" />
+      <div className="w-full">
+        <Image className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h1.avif" width={1000} height={1000} alt="" />
       </div>
-      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         
-        <p class="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Climate change is unequivocally real, supported by compelling evidence. Long-term temperature records reveal a steady and concerning increase in global temperatures over the past century. This warming has led to the widespread retreat of glaciers and the melting of polar ice, causing a rise in sea levels that threatens coastal communities. Ocean acidification, driven by the absorption of excess carbon dioxide, has harmed marine ecosystems. The uptick in extreme weather events, such as hurricanes and wildfires, aligns with climate change predictions. Moreover, a consensus among climate scientists, along with the accuracy of climate models in predicting these trends, underscores the undeniable reality of climate change, primarily driven by human activities.</p>
-        <a href='https://climate.nasa.gov/evidence/' target="_blank" ><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></a>
+        <p className="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Climate change is unequivocally real, supported by compelling evidence. Long-term temperature records reveal a steady and concerning increase in global temperatures over the past century. This warming has led to the widespread retreat of glaciers and the melting of polar ice, causing a rise in sea levels that threatens coastal communities. Ocean acidification, driven by the absorption of excess carbon dioxide, has harmed marine ecosystems. The uptick in extreme weather events, such as hurricanes and wildfires, aligns with climate change predictions. Moreover, a consensus among climate scientists, along with the accuracy of climate models in predicting these trends, underscores the undeniable reality of climate change, primarily driven by human activities.</p>
+        <a href='https://climate.nasa.gov/evidence/' target="_blank" ><button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></a>
       </div>
     </div>
-<div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+<div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
 <p className='absolute m-auto top-5 bottom-0 left-0 right-0 hover:opacity-0 text-white font-bold tracking-wider text-center text-2xl mb-4'>Causes</p>
 <p className='absolute m-auto top-20 bottom-0 left-0 right-0 hover:opacity-0 text-white font-bold tracking-wider text-center text-2xl mb-4 duration-100'>Why Is Climate Change Happening?</p>
 
-      <div class="w-full">
-        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGNsaW1hdGUlMjBjaGFuZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="" />
+      <div className="w-full">
+        <Image className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h2.avif" width={1000} height={1000} alt="" />
       </div>
-      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         
-        <p class="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Climate change is primarily driven by the increasing concentration of greenhouse gases, such as carbon dioxide, in the Earth's atmosphere. Human activities, including the burning of fossil fuels for energy, deforestation, and industrial processes, release these gases, trapping heat and causing the planet's average temperature to rise. This phenomenon, known as global warming, leads to a wide range of environmental consequences, such as melting polar ice caps, more frequent and severe weather events, and disruptions in ecosystems. Natural factors, like volcanic eruptions and solar radiation, also play a role in climate variability, but the current trend of rapid warming is primarily attributed to human actions. Mitigating climate change requires reducing greenhouse gas emissions and transitioning to cleaner, sustainable energy sources.</p>
-        <a href='https://climate.nasa.gov/causes/' target="_blank" ><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></a>
+        <p className="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Climate change is primarily driven by the increasing concentration of greenhouse gases, such as carbon dioxide, in the Earth's atmosphere. Human activities, including the burning of fossil fuels for energy, deforestation, and industrial processes, release these gases, trapping heat and causing the planet's average temperature to rise. This phenomenon, known as global warming, leads to a wide range of environmental consequences, such as melting polar ice caps, more frequent and severe weather events, and disruptions in ecosystems. Natural factors, like volcanic eruptions and solar radiation, also play a role in climate variability, but the current trend of rapid warming is primarily attributed to human actions. Mitigating climate change requires reducing greenhouse gas emissions and transitioning to cleaner, sustainable energy sources.</p>
+        <a href='https://climate.nasa.gov/causes/' target="_blank" ><button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></a>
       </div>
     </div>
-<div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+<div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
 <p className='absolute m-auto top-5 bottom-0 left-0 right-0 hover:opacity-0 text-white font-bold tracking-wider text-center text-2xl mb-4'>Effects</p>
 <p className='absolute m-auto top-20 bottom-0 left-0 right-0 hover:opacity-0 text-white font-bold tracking-wider text-center text-2xl mb-4 duration-100'>What Are The Effects Of Climate Change?</p>
 
-      <div class="w-full">
-        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://images.unsplash.com/photo-1634009653379-a97409ee15de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGNsaW1hdGUlMjBjaGFuZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="" />
+      <div className="w-full">
+        <Image width={1000} height={1000} className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h3.avif" alt="" />
       </div>
-      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         
-        <p class="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Climate change has far-reaching impacts, including rising global temperatures that intensify extreme weather events, such as hurricanes, droughts, and heatwaves. Melting polar ice caps and glaciers contribute to rising sea levels, leading to coastal erosion and threatening coastal communities. Altered precipitation patterns can disrupt agriculture, causing food shortages and increased competition for resources. Ecosystems are under stress, with species facing extinction and habitats shifting. Furthermore, health risks increase as diseases spread in a changing climate. Climate change poses a critical global challenge, necessitating immediate action to mitigate its consequences and adapt to the changes already underway.</p>
-        <a href='https://climate.nasa.gov/effects/' target="_blank" ><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></a>
+        <p className="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Climate change has far-reaching impacts, including rising global temperatures that intensify extreme weather events, such as hurricanes, droughts, and heatwaves. Melting polar ice caps and glaciers contribute to rising sea levels, leading to coastal erosion and threatening coastal communities. Altered precipitation patterns can disrupt agriculture, causing food shortages and increased competition for resources. Ecosystems are under stress, with species facing extinction and habitats shifting. Furthermore, health risks increase as diseases spread in a changing climate. Climate change poses a critical global challenge, necessitating immediate action to mitigate its consequences and adapt to the changes already underway.</p>
+        <a href='https://climate.nasa.gov/effects/' target="_blank" ><button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></a>
       </div>
     </div>
-<div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+<div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
 <p className='absolute m-auto top-5 bottom-0 left-0 right-0 hover:opacity-0 text-white font-bold tracking-wider text-center text-2xl mb-4'>Solutions</p>
 <p className='absolute m-auto top-20 bottom-0 left-0 right-0 hover:opacity-0 text-white font-bold tracking-wider text-center text-2xl mb-4 duration-100'>What Is Being Done To Solve Climate Change?</p>
 
-      <div class="w-full">
-        <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="https://images.unsplash.com/photo-1548337138-e87d889cc369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNsaW1hdGUlMjBjaGFuZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="" />
+      <div className="w-full">
+        <Image width={1000} height={1000} className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h4.avif" alt="" />
       </div>
-      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         
-        <p class="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <p className="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
 Efforts to combat climate change involve a multi-pronged approach. Nations are implementing policies to reduce greenhouse gas emissions, transitioning to renewable energy sources, and enhancing energy efficiency. International agreements like the Paris Agreement set targets for emission reductions and encourage global cooperation. Technological innovations in areas like electric vehicles and carbon capture are advancing. Reforestation and sustainable land management are also prioritized to absorb carbon dioxide. Climate awareness campaigns and individual actions, such as reducing energy consumption and waste, are contributing to the broader fight against climate change. Collaborative, global actions are crucial to addressing this urgent issue.</p>
-        <a href='https://climate.nasa.gov/solutions' target="_blank" ><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></a>
+        <a href='https://climate.nasa.gov/solutions' target="_blank" ><button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></a>
       </div>
     </div>    
       </div>
