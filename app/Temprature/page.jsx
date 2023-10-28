@@ -7,7 +7,7 @@ export default function page() {
     <div
         className="bg-fixed bg-cover bg-center w-full h-screen relative overflow-hidden"
         style={{
-          backgroundImage: 'url("https://sphera.com/wp-content/uploads/2022/08/gettyimages-586087414-2048x2048-smaller-scaled.jpg")',
+          backgroundImage: 'url("/GT.jpg")',
         }}
       >
 
@@ -17,7 +17,7 @@ export default function page() {
         </div>
         <div className="absolute bottom-14 left-1/2 transform -translate-x-1/2 text-xl text-center w-full text-pink-200 font-sans:[Helevicta]">
           <div className="  p-4 rounded-md ">
-          The year 2022 was the sixth warmest year since global records began in 1880 at 0.86°C (1.55°F) above the 20th century average of 13.9°C (57.0°F). This value is 0.13°C (0.23°F) less than the record set in 2016 and it is only 0.02°C (0.04°F) higher than the last year's (2021) value, which now ranks as the seventh highest. The 10 warmest years in the 143-year record have all occurred since 2010, with the last nine years (2014–2022) ranking as the nine warmest years on record.
+          The year 2022 was the sixth warmest year since global records began in 1880 at 0.86°C (1.55°F) above the 20th century average of 13.9°C (57.0°F). This value is 0.13°C (0.23°F) less than the record set in 2016 and it is only 0.02°C (0.04°F) higher than last year&apos;s (2021) value, which now ranks as the seventh highest. The 10 warmest years in the 143-year record have all occurred since 2010, with the last nine years (2014–2022) ranking as the nine warmest years on record.
           </div>
         </div>
       </div>

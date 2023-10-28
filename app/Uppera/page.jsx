@@ -7,7 +7,7 @@ export default function page() {
       <div
         className="bg-fixed bg-cover bg-center w-full h-screen relative overflow-hidden"
         style={{
-          backgroundImage: 'url("https://img.freepik.com/free-photo/blue-wave-crashes-african-coastline-sunset-generated-by-ai_188544-25305.jpg")',
+          backgroundImage: 'url("/UA.avif")',
         }}
       >
 
@@ -16,9 +16,8 @@ export default function page() {
          Upper Atmosphere
         </div>
         <div className="absolute bottom-14 left-1/2 transform -translate-x-1/2 text-white text-xl text-center w-full text-orange-300 font-sans:[Helevicta]">
-          <p className="  p-4 rounded-md ">
-          The upper atmosphere, or thermosphere, lies roughly 50 miles (80 kilometers) above Earth's surface. It is characterized by extremely low air density and scorching temperatures, sometimes exceeding thousands of degrees Celsius, driven by intense solar radiation absorption. This region is vital for phenomena like auroras and significantly influences the behavior of satellites and spacecraft. Moreover, it serves as a protective barrier, absorbing harmful solar and cosmic radiation, essential for maintaining life on Earth.
-            
+          <p className="p-4 rounded-md">
+            The upper atmosphere, or thermosphere, lies roughly 50 miles (80 kilometers) above Earth&apos;s surface. It is characterized by extremely low air density and scorching temperatures, sometimes exceeding thousands of degrees Celsius, driven by intense solar radiation absorption. This region is vital for phenomena like auroras and significantly influences the behavior of satellites and spacecraft. Moreover, it serves as a protective barrier, absorbing harmful solar and cosmic radiation, essential for maintaining life on Earth.
           </p>
         </div>
       </div>

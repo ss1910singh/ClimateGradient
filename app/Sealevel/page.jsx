@@ -8,7 +8,7 @@ export default function page() {
           <div
         className="bg-fixed bg-cover bg-center w-full h-screen relative overflow-hidden"
         style={{
-          backgroundImage: 'url("https://images.theconversation.com/files/273711/original/file-20190509-183103-1hhwoaj.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip")',
+          backgroundImage: 'url("/SL.avif")',
         }}
       >
 
