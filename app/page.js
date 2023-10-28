@@ -79,7 +79,7 @@ export default function Home() {
         </div>
        <div className='bg-gradient-to-t from-red-200 via-red-300 to-yellow-200 p-3 rounded-lg h-40 shadow-xl hover:shadow-teal-500'>
         <p className='mb-2'>Upper Atmosphere</p>
-        <p>Journey through Earth's upper atmosphere history with our past climate visualizer.</p>
+        <p>Journey through Earth&apos;s upper atmosphere history with our past climate visualizer.</p>
         <div className='relative'>
         <a href='Uppera/'>
         <button
@@ -138,7 +138,7 @@ export default function Home() {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         
-        <p className="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Climate change is primarily driven by the increasing concentration of greenhouse gases, such as carbon dioxide, in the Earth's atmosphere. Human activities, including the burning of fossil fuels for energy, deforestation, and industrial processes, release these gases, trapping heat and causing the planet's average temperature to rise. This phenomenon, known as global warming, leads to a wide range of environmental consequences, such as melting polar ice caps, more frequent and severe weather events, and disruptions in ecosystems. Natural factors, like volcanic eruptions and solar radiation, also play a role in climate variability, but the current trend of rapid warming is primarily attributed to human actions. Mitigating climate change requires reducing greenhouse gas emissions and transitioning to cleaner, sustainable energy sources.</p>
+        <p className="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Climate change is primarily driven by the increasing concentration of greenhouse gases, such as carbon dioxide, in the Earth&rsquo;s atmosphere. Human activities, including the burning of fossil fuels for energy, deforestation, and industrial processes, release these gases, trapping heat and causing the planet&rsquo;s average temperature to rise. This phenomenon, known as global warming, leads to a wide range of environmental consequences, such as melting polar ice caps, more frequent and severe weather events, and disruptions in ecosystems. Natural factors, like volcanic eruptions and solar radiation, also play a role in climate variability, but the current trend of rapid warming is primarily attributed to human actions. Mitigating climate change requires reducing greenhouse gas emissions and transitioning to cleaner, sustainable energy sources.</p>
         <a href='https://climate.nasa.gov/causes/' target="_blank" ><button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></a>
       </div>
     </div>
