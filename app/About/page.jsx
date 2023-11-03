@@ -19,9 +19,8 @@ const AboutPage = () => {
       setIsSubmitted(true);
     } );
   }
-
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-emerald-500 text-gray-800 min-h-screen py-8 md:py-20 px-4 text-center">
+    <div className="bg-gradient-to-b from-sky-400 to-sky-200min-h-screen py-8 md:py-20 px-4 text-center ">
       <div className="max-w-screen-lg mx-auto">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold mb-2 md:mb-6">About Us</h1>
         <p className="text-base md:text-lg">
@@ -29,7 +28,7 @@ const AboutPage = () => {
         </p>
       </div>
 
-      <div className="w-full md:w-screen-lg mx-auto p-4 bg-white rounded-lg shadow-lg flex flex-wrap">
+      <div className="w-full md:w-screen-lg mx-auto p-4 bg-white rounded-lg shadow-lg flex bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r ">
   <section className="mb-4 md:mb-12 w-full md:w-1/2 pr-4 border-r border-gray-300 pr-4">
     <div className="text-center">
       <h2 className="text-2xl md:text-4xl font-semibold mb-2 md:mb-4">Our Mission</h2>
@@ -49,7 +48,7 @@ const AboutPage = () => {
     <h2 className="text-2xl md:text-4xl font-semibold mb-2 md:mb-4">Our Team</h2>
     <div className="flex flex-wrap -mx-2 md:-mx-4">
       {teamMembers.map((member, index) => (
-        <div key={index} className="w-full md:w-1/2 p-2 md:p-4">
+        <div key={index} className="w-full md:w-1/2 p-2 md:p-4 ">
           <div className="bg-gray-100 rounded-lg shadow-lg p-4 transform transition-transform hover:scale-105 duration-300">
             <Image
               src={member.image}
@@ -66,9 +65,9 @@ const AboutPage = () => {
               <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="mx-1 md:mx-2 text-gray-600 hover:text-blue-500">
                 <i className="fab fa-linkedin"></i> LinkedIn
               </a>
-              <a href={member.twitter} target="_blank" rel="noopener noreferrer" className="mx-1 md:mx-2 text-gray-600 hover:text-blue-500">
+              {/* <a href={member.twitter} target="_blank" rel="noopener noreferrer" className="mx-1 md:mx-2 text-gray-600 hover:text-blue-500">
                 <i className="fab fa-twitter"></i> Twitter
-              </a>
+              </a> */}
               <a href={`mailto:${member.email}`} className="mx-1 md:mx-2 text-gray-600 hover:text-blue-500">
                 <i className="far fa-envelope"></i> Email
               </a>
@@ -169,37 +168,37 @@ const teamMembers = [
   {
     name: "Satish Singh",
     role: "B.Tech 2nd Year (AI&DS)",
-    image: "/AB.webp",
-    github: "https://github.com/your-github-handle",
-    linkedin: "https://www.linkedin.com/in/your-linkedin-handle",
-    twitter: "https://twitter.com/your-twitter-handle",
-    email: "your-email@example.com",
+    image: "/sat.webp",
+    github: "https://github.com/ss1910singh",
+    linkedin: "https://www.linkedin.com/in/satish-singh-964b09278/",
+//    twitter: "https://twitter.com/your-twitter-handle",
+    email: "sat.sin.rt22@dypatil.edu",
   },
   {
     name: "Sankalp Sathe",
     role: "B.Tech 2nd Year (AI&DS)",
-    image: "/AB.webp",
-    github: "https://github.com/your-github-handle",
-    linkedin: "https://www.linkedin.com/in/your-linkedin-handle",
-    twitter: "https://twitter.com/your-twitter-handle",
-    email: "your-email@example.com",
+    image: "/san.jpg",
+    github: "https://github.com/quantumscribe",
+    linkedin: "https://www.linkedin.com/in/sankalp-sathe-5ba396183?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+//    twitter: "https://twitter.com/your-twitter-handle",
+    email: "san.sat.rt22@dypatil.edu",
   },
   {
     name: "Pranavi Shukla",
     role: "B.Tech 2nd Year (AI&DS)",
-    image: "/AB.webp",
-    github: "https://github.com/your-github-handle",
-    linkedin: "https://www.linkedin.com/in/your-linkedin-handle",
-    twitter: "https://twitter.com/your-twitter-handle",
-    email: "your-email@example.com",
+    image: "/pra.jpg",
+    github: "https://github.com/pranavishuklaa",
+    linkedin: "https://www.linkedin.com/in/pranavi-shukla-255879293/",
+//    twitter: "https://twitter.com/your-twitter-handle",
+    email: "pra.shu.rt22@dypatil.edu",
   },
   {
     name: "Aakash Shedge",
     role: "B.Tech 2nd Year (AI&DS)",
-    image: "/AB.webp",
-    github: "https://github.com/your-github-handle",
+    image: "/aa.jpg",
+    github: "https://github.com/Aakash2934",
     linkedin: "https://www.linkedin.com/in/your-linkedin-handle",
-    twitter: "https://twitter.com/your-twitter-handle",
-    email: "your-email@example.com",
+//    twitter: "https://twitter.com/your-twitter-handle",
+    email: "aak.she.rt22@dypatil.edu",
   },
 ];
