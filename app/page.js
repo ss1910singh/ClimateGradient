@@ -20,9 +20,10 @@ export default function Home() {
         <Lottie className="h-80 mr-20" animationData={animationData}/>
       </div>
     </div>
-    <div className='mt-72 text-5xl ml-10 flex'>
+    <div className='mt-72 text-5xl ml-10 flex mb-0 md:mb-20 sm:mb-36'>
     <p className='flex'>Explore.</p>
-    <Lottie className="h-[150px] flex -mt-12 ml-4" animationData={animation}/>
+
+    <Lottie className="h-[150px] flex -mt-12 ml-4 " animationData={animation}/>
     </div>
     <div className='w-full min-h-screen justify-center content-center grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-10  text-black gap-10 mb-0 grid-flow-row -mt-40'>
        <div className='bg-gradient-to-b from-orange-400 to-rose-400 p-3 rounded-lg h-40 hover:bg-white shadow-xl hover:shadow-teal-500'>
@@ -119,7 +120,7 @@ export default function Home() {
 <p className='absolute m-auto top-20 bottom-0 left-0 right-0 hover:opacity-0  text-white font-bold tracking-wider text-center text-2xl mb-4 duration-100'>How Do We Know Climate Change Is Real?</p>
 
       <div className="w-full">
-        <Image className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h1.avif" width={1000} height={1000} alt="" />
+        <Image className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h1.avif" width={3000} height={3000} alt="" />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
@@ -133,7 +134,7 @@ export default function Home() {
 <p className='absolute m-auto top-20 bottom-0 left-0 right-0 hover:opacity-0 text-white font-bold tracking-wider text-center text-2xl mb-4 duration-100'>Why Is Climate Change Happening?</p>
 
       <div className="w-full">
-        <Image className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h2.avif" width={1000} height={1000} alt="" />
+        <Image className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h2.avif" width={3000} height={3000} alt="" />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
@@ -147,7 +148,7 @@ export default function Home() {
 <p className='absolute m-auto top-20 bottom-0 left-0 right-0 hover:opacity-0 text-white font-bold tracking-wider text-center text-2xl mb-4 duration-100'>What Are The Effects Of Climate Change?</p>
 
       <div className="w-full">
-        <Image width={1000} height={1000} className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h3.avif" alt="" />
+        <Image width={3000} height={3000} className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h3.avif" alt="" />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
@@ -161,7 +162,7 @@ export default function Home() {
 <p className='absolute m-auto top-20 bottom-0 left-0 right-0 hover:opacity-0 text-white font-bold tracking-wider text-center text-2xl mb-4 duration-100'>What Is Being Done To Solve Climate Change?</p>
 
       <div className="w-full">
-        <Image width={1000} height={1000} className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h4.avif" alt="" />
+        <Image width={3000} height={3000} className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/h4.avif" alt="" />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
