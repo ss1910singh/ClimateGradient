@@ -81,7 +81,7 @@ const AboutPage = () => {
 <div className="flex flex-col items-center justify-center h-screen">
         {isSubmitted ? (
           <div className="bg-white rounded-lg p-6 shadow-md w-96">
-            <h2 className="text-2xl font-semibold mb-4">Feedback Submitted</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-black">Feedback Submitted</h2>
             <p>Thank you for your feedback!</p>
             <button
               onClick={() => setIsSubmitted(false)}
@@ -92,12 +92,12 @@ const AboutPage = () => {
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="bg-white rounded-lg p-6 shadow-md w-96">
-            <h2 className="text-2xl font-semibold mb-4">Feedback</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-black">Feedback</h2>
             <input
               type="text"
               placeholder="Enter your feedback here"
               required
-              className="border-2 border-black rounded-lg w-full py-2 px-4 mb-4"
+              className="border-2 border-black rounded-lg w-full py-2 px-4 mb-4 text-black"
               onChange={(e) => setFeedback(e.target.value)}
               value={Feedback}
             />
@@ -168,7 +168,7 @@ const teamMembers = [
   {
     name: "Satish Singh",
     role: "B.Tech 2nd Year (AI&DS)",
-    image: "/sat.webp",
+    image: "/sat.jpg",
     github: "https://github.com/ss1910singh",
     linkedin: "https://www.linkedin.com/in/satish-singh-964b09278/",
 //    twitter: "https://twitter.com/your-twitter-handle",
