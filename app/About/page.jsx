@@ -28,7 +28,7 @@ const AboutPage = () => {
         </p>
       </div>
 
-      <div className="w-full md:w-screen-lg mx-auto p-4 bg-white rounded-lg shadow-lg flex bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r ">
+{/*       <div className="w-full md:w-screen-lg mx-auto p-4 bg-white rounded-lg shadow-lg flex bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r ">
   <section className="mb-4 md:mb-12 w-full md:w-1/2 pr-4 border-r border-gray-300 pr-4">
     <div className="text-center">
       <h2 className="text-2xl md:text-4xl font-semibold mb-2 md:mb-4">Our Mission</h2>
@@ -44,7 +44,7 @@ const AboutPage = () => {
     </p>
   </section>
 
-{/*   <section className="mb-4 md:mb-12 w-full md:w-1/2 pl-4">
+<section className="mb-4 md:mb-12 w-full md:w-1/2 pl-4">
     <h2 className="text-2xl md:text-4xl font-semibold mb-2 md:mb-4">Our Team</h2>
     <div className="flex flex-wrap -mx-2 md:-mx-4">
       {teamMembers.map((member, index) => (
@@ -68,7 +68,7 @@ const AboutPage = () => {
               {/* <a href={member.twitter} target="_blank" rel="noopener noreferrer" className="mx-1 md:mx-2 text-gray-600 hover:text-blue-500">
                 <i className="fab fa-twitter"></i> Twitter
               </a> */}
-{/*               <a href={`mailto:${member.email}`} className="mx-1 md:mx-2 text-gray-600 hover:text-blue-500">
+{/*                <a href={`mailto:${member.email}`} className="mx-1 md:mx-2 text-gray-600 hover:text-blue-500">
                 <i className="far fa-envelope"></i> Email
               </a>
             </div>
@@ -76,8 +76,8 @@ const AboutPage = () => {
         </div>
       ))}
     </div>
-  </section> */} */}
-</div>
+  </section>
+</div> */} */}
 <div className="flex flex-col items-center justify-center h-screen">
         {isSubmitted ? (
           <div className="bg-white rounded-lg p-6 shadow-md w-96">
