@@ -68,7 +68,7 @@ const AboutPage = () => {
               {/* <a href={member.twitter} target="_blank" rel="noopener noreferrer" className="mx-1 md:mx-2 text-gray-600 hover:text-blue-500">
                 <i className="fab fa-twitter"></i> Twitter
               </a> */}
-              <a href={`mailto:${member.email}`} className="mx-1 md:mx-2 text-gray-600 hover:text-blue-500">
+{/*               <a href={`mailto:${member.email}`} className="mx-1 md:mx-2 text-gray-600 hover:text-blue-500">
                 <i className="far fa-envelope"></i> Email
               </a>
             </div>
@@ -76,7 +76,7 @@ const AboutPage = () => {
         </div>
       ))}
     </div>
-  </section> */}
+  </section> */} */}
 </div>
 <div className="flex flex-col items-center justify-center h-screen">
         {isSubmitted ? (
