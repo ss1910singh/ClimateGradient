@@ -78,7 +78,7 @@ const AboutPage = () => {
     </div>
   </section>
 </div> 
-{/* <div className="flex flex-col items-center justify-center h-screen">
+<div className="flex flex-col items-center justify-center h-screen">
         {isSubmitted ? (
           <div className="bg-white rounded-lg p-6 shadow-md w-96">
             <h2 className="text-2xl font-semibold mb-4 text-black">Feedback Submitted</h2>
@@ -106,7 +106,7 @@ const AboutPage = () => {
             </button>
           </form>
         )}
-      </div> */}
+      </div>
 
 
       <div className='text-white'>
@@ -164,41 +164,41 @@ export default AboutPage;
       </div> */}
 
 // EVERYONE ADD UR DETAILS HERE
-// const teamMembers = [
-//   {
-//     name: "Satish Singh",
-//     role: "B.Tech 2nd Year (AI&DS)",
-//     image: "/sat.jpg",
-//     github: "https://github.com/ss1910singh",
-//     linkedin: "https://www.linkedin.com/in/satish-singh-964b09278/",
-// //    twitter: "https://twitter.com/your-twitter-handle",
-//     email: "sat.sin.rt22@dypatil.edu",
-//   },
-//   {
-//     name: "Sankalp Sathe",
-//     role: "B.Tech 2nd Year (AI&DS)",
-//     image: "/san.jpg",
-//     github: "https://github.com/quantumscribe",
-//     linkedin: "https://www.linkedin.com/in/sankalp-sathe-5ba396183?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-// //    twitter: "https://twitter.com/your-twitter-handle",
-//     email: "san.sat.rt22@dypatil.edu",
-//   },
-//   {
-//     name: "Pranavi Shukla",
-//     role: "B.Tech 2nd Year (AI&DS)",
-//     image: "/pra.jpg",
-//     github: "https://github.com/pranavishuklaa",
-//     linkedin: "https://www.linkedin.com/in/pranavi-shukla-255879293/",
-// //    twitter: "https://twitter.com/your-twitter-handle",
-//     email: "pra.shu.rt22@dypatil.edu",
-//   },
-//   {
-//     name: "Aakash Shedge",
-//     role: "B.Tech 2nd Year (AI&DS)",
-//     image: "/aa.jpg",
-//     github: "https://github.com/Aakash2934",
-//     linkedin: "https://www.linkedin.com/in/your-linkedin-handle",
-// //    twitter: "https://twitter.com/your-twitter-handle",
-//     email: "aak.she.rt22@dypatil.edu",
-//   },
-// ];
+const teamMembers = [
+  {
+    name: "Satish Singh",
+    role: "B.Tech 2nd Year (AI&DS)",
+    image: "/sat.jpg",
+    github: "https://github.com/ss1910singh",
+    linkedin: "https://www.linkedin.com/in/satish-singh-964b09278/",
+//    twitter: "https://twitter.com/your-twitter-handle",
+    email: "sat.sin.rt22@dypatil.edu",
+  },
+  {
+    name: "Sankalp Sathe",
+    role: "B.Tech 2nd Year (AI&DS)",
+    image: "/san.jpg",
+    github: "https://github.com/quantumscribe",
+    linkedin: "https://www.linkedin.com/in/sankalp-sathe-5ba396183?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+//    twitter: "https://twitter.com/your-twitter-handle",
+    email: "san.sat.rt22@dypatil.edu",
+  },
+  {
+    name: "Pranavi Shukla",
+    role: "B.Tech 2nd Year (AI&DS)",
+    image: "/pra.jpg",
+    github: "https://github.com/pranavishuklaa",
+    linkedin: "https://www.linkedin.com/in/pranavi-shukla-255879293/",
+//    twitter: "https://twitter.com/your-twitter-handle",
+    email: "pra.shu.rt22@dypatil.edu",
+  },
+  {
+    name: "Aakash Shedge",
+    role: "B.Tech 2nd Year (AI&DS)",
+    image: "/aa.jpg",
+    github: "https://github.com/Aakash2934",
+    linkedin: "https://www.linkedin.com/in/your-linkedin-handle",
+//    twitter: "https://twitter.com/your-twitter-handle",
+    email: "aak.she.rt22@dypatil.edu",
+  },
+];
