@@ -77,7 +77,7 @@ const AboutPage = () => {
       ))}
     </div>
   </section>
-</div>
+</div> */}
 <div className="flex flex-col items-center justify-center h-screen">
         {isSubmitted ? (
           <div className="bg-white rounded-lg p-6 shadow-md w-96">
@@ -106,7 +106,7 @@ const AboutPage = () => {
             </button>
           </form>
         )}
-      </div> */}
+      </div>
 
 
       <div className='text-white'>
